@@ -8,7 +8,7 @@ jobs:
 
     steps:
     - name: Run
-      run: |
+      run: 
         echo "Sleeping for 10"
 
   job2:
@@ -18,9 +18,8 @@ jobs:
 
     steps:
     - name: Dependant is Running
-      run: |
+      run: 
         echo "Completed job 2, but triggering failure"
-        exit 1
 
   job3:
     name: Job 3
