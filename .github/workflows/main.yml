@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Sleep and Run
+    - name: Run
       run: |
         echo "Sleeping for 10"
         sleep 10
