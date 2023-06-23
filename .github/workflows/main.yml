@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - name: Dependant is Running
-      run: 
+      run: |
         echo "Completed job 2, but triggering failure"
         exit 1
   job3:
