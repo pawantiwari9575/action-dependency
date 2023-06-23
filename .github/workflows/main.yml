@@ -10,7 +10,6 @@ jobs:
     - name: Run
       run: |
         echo "Sleeping for 10"
-        sleep 10
 
   job2:
     name: Job 2
